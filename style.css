@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar  */
+.navbar {
+    position: sticky;
+    width: 100%;
+    background-color: #faf9ff;
+    padding: 10px 50px;
+}
+
+.navbar .nav-link {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #222 !important;
+    transition: all 0.5 ease-in-out;
+    margin: 0 10px;
+}
+
+.navbar .nav-link:hover {
+    color: rgb(132, 144, 255) !important;
+    transform: scale(1.2);
+}
+
+/* bannar  */
+.bannar {
+    background-color: #faf9ff;
+}
+
+.bannar h5 {
+    font-size: 18px;
+    color: #222;
+}
+
+.bannar h3 {
+    font-size: 40px;
+    color: rgb(132, 144, 255);
+    text-transform: capitalize;
+}
+
+.bannar p {
+    color: #777;
+}
+
+.bannar img {
+    width: 100%;
+}
+
+.bannar button {
+    padding: 0 42px;
+    line-height: 50px;
+    background-image: linear-gradient(to right, #8490ff 0%, #62bdfc 48%, #8490ff 100%);
+    background-size: 200% auto;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 0;
+}
+
+/* hoppies  */
+.hoppiessec {
+    background-color: #faf9ff;
+    padding: 50px 0;
+}
+
+.hoppiessec .col-md-4 {
+    margin-top: 50px;
+}
+
+.hoppiessec .col-md-4 .coldiv {
+    box-shadow: 0 8px 30px 0 rgb(153 153 153 / 10%);
+    height: 600px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.hoppiessec .imgdiv {
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.hoppiessec img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.hoppiessec img:hover {
+    transform: scale(1.5);
+
+}
+
+.hoppiessec .textdiv {
+    padding: 20px;
+}
+
+.hoppiessec .col-md-4 h3 {
+    color: rgb(132, 144, 255);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.hoppiessec .col-md-4 p {
+    color: #777;
+}
+
+/* birthday  */
+.birthdaysec {
+    padding: 50px 100px;
+    text-align: center;
+    background-color: #faf9ff;
+    min-height: 100vh;
+}
+
+.birthdaysec img {
+    width: 100%;
+}
+
+.birthdaysec #theform {
+    display: none;
+}
+
+.birthdaysec #theform h3 {
+    color: #8490ff;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+.birthdaysec form textarea {
+    border: 1px solid rgb(181, 180, 180);
+    outline: none;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px 0 rgb(153 153 153 / 10%);
+
+}
+
+.birthdaysec form button {
+    padding: 0 42px;
+    line-height: 50px;
+    background-image: linear-gradient(to right, #8490ff 0%, #62bdfc 48%, #8490ff 100%);
+    background-size: 200% auto;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 0;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+/* thans page  */
+.thanksec {
+    min-height: 94vh;
+    padding: 200px 0;
+    background-color: #faf9ff;
+}
+
+.thanksec h3 {
+    text-align: center;
+    font-size: 80px;
+    color: #8490ff;
+}
+
+/* contact us  */
+.contactsec {
+    padding: 100px 0px;
+    text-align: left;
+    background-color: #faf9ff;
+    min-height: 100vh;
+}
+
+.contactsec h3 {
+    color: #8490ff;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+.contactsec p {
+    color: #222;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.contactsec span {
+    font-size: 18px;
+    color: #777;
+}
+
+.contactsec img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.theform {
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.theform label {
+    color: #8490ff;
+    margin-top: 20px;
+}
+
+.contactsec form button {
+    padding: 0 42px;
+    line-height: 50px;
+    background-image: linear-gradient(to right, #8490ff 0%, #62bdfc 48%, #8490ff 100%);
+    background-size: 200% auto;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 0;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+/* countries  */
+.countrysec {
+    padding: 50px 100px;
+    background-color: #faf9ff;
+    text-align: center;
+}
+
+.countrysec h3 {
+    font-size: 60px;
+    color: #8490ff;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.countrysec p {
+    font-size: 30px;
+    color: #222;
+    text-align: left;
+    color: #777;
+}
+
+.countrysec img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/* cv  */
+.cvsection {
+    min-height: 100vh;
+    background-color: #faf9ff;
+    padding-top: 20px;
+
+}
+
+.cvdiv {
+    min-height: 100vh;
+    padding:20px 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.cvdiv h3 {
+    color: #8490ff;
+    font-size: 40px;
+}
+.cvdiv h5{
+    color: #d6a154;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.cvdiv p{
+    color: #222;
+    font-size: 20px;
+    font-weight: 350;
+}
+.cvdiv p span{
+    color: #8490ff;
+    font-size:18px ;
+}
